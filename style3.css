@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+}
+
+h1  {
+    padding: .45em;
+    font-style: oblique;
+}
+
+.big {
+    margin: 45px 255px;
+    border: 2px solid black;
+    min-width: 50em;
+    min-height: 25em;
+    background-color: rgb(155, 177, 204);
+}
+
+#text {
+    font-size: 2em;
+    margin: 17px;
+    padding: 50px 0px;
+    border: 2px dotted rgb(154, 250, 0);
+    background-color: silver;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
+}
+
+#clear {
+    width: 5em;
+}
+
+#cap {
+    min-width: 4em;
+}
+
+#sort {
+    width: 4em;
+}
+
+#rev {
+    min-width: 4em;
+}
+
+#strip {
+    min-width: 4em;
+}
+
+#add {
+    min-width: 4em;
+}
+
+#shuffle {
+    width: 4em;
+}
+
+.lowcase {
+    text-transform: lowercase;
+}
+
+.toggles {
+    text-transform: uppercase;
+}
+
+a {
+    padding-left: 2em;
+    font-size: 1.3em;
+}
+
+
+
